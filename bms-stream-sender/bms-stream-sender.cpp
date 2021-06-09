@@ -2,7 +2,7 @@
 
 RandomNumGenerator::RandomNumGenerator()
 {
-    srand(time(NULL));  //one time supply seed 
+    srand(time(NULL));  //one time supply seed //
 }
 
 int RandomNumGenerator::getRandomNumInRange(int min, int max)
